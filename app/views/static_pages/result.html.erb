@@ -1,0 +1,19 @@
+<div class="center">
+  <div class="container">
+    <div class="year">
+      <%= Uru.last.year %>
+    </div>
+    <div class="is">
+      is
+    </div>
+    <div class="judge">
+      <% if Uru.last.is_uru %>
+      uru
+      <% else %>
+      not uru
+      <% end %>
+    </div>
+
+    <%= link_to "back", root_path %>
+  </div>
+</div>

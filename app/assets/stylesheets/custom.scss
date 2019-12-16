@@ -45,18 +45,73 @@ textarea {
   h1 {
     margin-bottom: 10px
   }
-}
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 500px;
 
-.btn {
-  background-color: $secondary;
-  color: $primary;
-  border-color: none;
-  &:hover {
-    background-color: $secondary;
-    color: $primary
+    .btn {
+      background-color: $secondary;
+      color: $primary;
+      border-color: none;
+
+      &:hover {
+        background-color: $primary;
+        color: $secondary;
+        border-color: $secondary;
+      }
+    }
+
+    .form-year{
+      display: block;
+      text-align : center ;
+      height: 34px;
+      padding: 6px 12px;
+      font-size: 40px;
+      color: $secondary;
+      background-color: $primary;
+      border-radius: 4px;
+      border-color: $secondary;
+      border-width: 3px
+    }
+  }
+
+  .year {
+    font-size: 40px;
+  }
+
+  .is {
+    font-size: 20px
+  }
+  .judge {
+    font-size: 40px;
+    padding-bottom: 100px;
+
   }
 }
+input::placeholder {
+  color: #555555;
+}
 
+// .btn {
+//   background-color: $secondary;
+//   color: $primary;
+//   border-color: none;
+//   &:hover {
+//     background-color: $primary;
+//     color: $secondary;
+//     border-color: $secondary;
+//   }
+// }
+// .form-year{
+//   display: block;
+//   text-align : center ;
+//   height: 34px;
+//   padding: 6px 12px;
+//   font-size: 40px;
+//   color: #555555;
+// }
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
